@@ -11,10 +11,10 @@ const SecondAnimation = () => {
 
   useEffect(() => {
 
-    // 
+    // Animación para agrandar un View de alto y de ancho
     Animated.timing(
       animacion, {
-      toValue: 450, // 
+      toValue: 450, // De width y height 0 a 450
       duration: 1000,  // Cantidad de tiempo en completar la animación
       useNativeDriver: false
     }
